@@ -70,7 +70,7 @@ export const Repository = styled.div`
 
     display: flex;
     align-items: center;
-    transform: transform 0.2s;
+    transition: transform 0.2s;
 
     &:hover {
       transform: translateX(10px);

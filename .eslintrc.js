@@ -31,14 +31,10 @@ module.exports = {
     rules: {
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
+        "react/jsx-one-expression-per-line": "off",
         "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
         "import/prefer-default-export": "off",
-        "#typescript-eslint/explicit-function-return-type": [
-          "error",
-          {
-            "allowExpression": true
-          }
-        ],
+        "@typescript-eslint/explicit-function-return-type": ["error"],
         "import/extensions": [
             "error",
             "ignorePackages",
